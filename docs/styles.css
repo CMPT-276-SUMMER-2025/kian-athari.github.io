@@ -101,11 +101,11 @@ img.circle {
 }
 
 section:nth-child(odd) {
-    background-color: #111111;
+    background-color: #000000;
 }
 
 section:nth-child(even) {
-    background-color: #000000;
+    background-color: #41001a;
 }
 
 .feature {
