@@ -67,7 +67,6 @@ img.circle {
     height: 300px;
 }
 
-/* About Section Layout */
 .about-container {
     display: flex;
     align-items: center;
@@ -76,8 +75,8 @@ img.circle {
     max-width: 1200px;
     margin: 0 auto;
     padding: 2rem;
-  }
-  
+}
+
 .about-img {
     width: 600px;
     height: 500px;
@@ -121,20 +120,38 @@ section:nth-child(even) {
     position: fixed;
     top: 0;
     width: 100%;
+    display: flex;
+    align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 1rem;
+    padding: 1rem 2rem;
     z-index: 1000;
+    gap: 2rem;
+}
+
+.nav-logo {
+    height: 40px;
+    width: auto;
+    transition: transform 0.3s ease;
+    border-radius: 4px;
+}
+
+.nav-logo:hover {
+    transform: scale(1.05);
 }
 
 #main-nav a {
     color: #ffffff;
-    margin: 0 1rem;
+    margin: 0 0.5rem;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: all 0.3s;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
 }
 
 #main-nav a:hover {
-    color: #aaaaaa;
+    color: #ffa8cb;
+    background-color: rgba(255, 255, 255, 0.1);
 }
 
 .social-links {
@@ -143,7 +160,7 @@ section:nth-child(even) {
 }
 
 .social-links a {
-    color: #a0edf6; /* LinkedIn blue */
+    color: #a0edf6;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -153,5 +170,5 @@ section:nth-child(even) {
 }
 
 .social-links a:last-child {
-    color: #777777; /* GitHub black */
+    color: #777777;
 }
