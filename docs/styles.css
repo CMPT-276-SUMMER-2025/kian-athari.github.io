@@ -136,3 +136,22 @@ section:nth-child(even) {
 #main-nav a:hover {
     color: #aaaaaa;
 }
+
+.social-links {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+.social-links a {
+    color: #a0edf6; /* LinkedIn blue */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.social-links a:last-child {
+    color: #777777; /* GitHub black */
+}
