@@ -173,9 +173,18 @@ section:nth-child(even) {
     color: #777777;
 }
 
-.contact-icon {
+.email-icon {
     width: 45px;
     height: 40px;
+    vertical-align: middle;
+    margin-right: 8px;
+    filter: invert(1); 
+    transition: all 0.3s ease;
+}
+
+.insta-icon {
+    width: 70px;
+    height: 55px;
     vertical-align: middle;
     margin-right: 8px;
     filter: invert(1); 
