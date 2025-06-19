@@ -67,6 +67,39 @@ img.circle {
     height: 300px;
 }
 
+/* About Section Layout */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+.about-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+}
+
+.about-text {
+    flex: 1;
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-text {
+        text-align: center;
+    }
+}
+
 section:nth-child(odd) {
     background-color: #111111;
 }
