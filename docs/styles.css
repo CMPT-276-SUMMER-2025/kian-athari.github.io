@@ -123,13 +123,14 @@ section:nth-child(even) {
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.8);
-    padding: 0.5rem 1rem;
+    padding: 0.1rem 0.1rem;
     z-index: 1000;
     gap: 1.5rem;
+    max-height: 80px;
 }
 
 .nav-logo {
-    height: 50px;
+    height: 45px;
     width: auto;
     transition: transform 0.3s ease;
     border-radius: 4px;
@@ -184,7 +185,7 @@ section:nth-child(even) {
 
 .insta-icon {
     width: 70px;
-    height: 55px;
+    height: 50px;
     vertical-align: middle;
     margin-right: 8px;
     filter: invert(1); 
